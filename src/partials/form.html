@@ -13,24 +13,25 @@
     <label for="email" class="input-email-label">Email</label>
   </div>
   <div class="input-group">
-    <input id="phone" type="tel" required name="phone" class="input-phone" />
-    <label for="phone" class="input-phone-label">Phone</label>
+    <input id="number" type="tel" required name="number" class="input-phone" />
+    <label for="number" class="input-phone-label">Phone</label>
   </div>
+  <label>Select your position</label>
   <div class="cBox">
     <label>
-      <input type="checkbox" name="profession" value="Frontend" />
+      <input type="radio" name="pos" value="Frontend" />
       Frontend
     </label>
     <label>
-      <input type="checkbox" name="profession" value="Backend" />
+      <input type="radio" name="pos" value="Backend" />
       Backend
     </label>
     <label>
-      <input type="checkbox" name="profession" value="Fullstack" />
+      <input type="radio" name="pos" value="Fullstack" />
       Fullstack
     </label>
   </div>
+  <input type="file" name="avatar" />
 
-  <label>Select your position</label>
   <input type="submit" value="Save" />
 </form>
