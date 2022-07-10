@@ -3,4 +3,19 @@
 body {
   font-family: 'Nunito', sans-serif;
   color: rgba(0, 0, 0, 0.87);
+  background-color: $background-color;
+}
+.container {
+  max-width: 1170px;
+  box-sizing: content-box;
+  margin: 0 auto 0 auto;
+  @media (max-width: 1169.98px) {
+    max-width: 904px;
+  }
+  @media (max-width: 903.98px) {
+    max-width: 704px;
+  }
+  @media (max-width: 703.98px) {
+    max-width: 328px;
+  }
 }

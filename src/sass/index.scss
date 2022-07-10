@@ -1,4 +1,8 @@
-@import './base/common';
 @import './base/vars';
-@import './form';
+@import './base/reset';
+@import './base/common';
+
 @import './components/buttons';
+@import './components/card';
+
+@import './form';

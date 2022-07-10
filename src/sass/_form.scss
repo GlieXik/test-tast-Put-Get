@@ -1,0 +1,87 @@
+.input-group {
+  position: relative;
+}
+.input-name {
+  padding: 14px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  width: 324px;
+  height: 54px;
+  background-color: transparent;
+  font: inherit;
+  &-label {
+    position: absolute;
+    top: 0;
+    left: 15;
+    transform: translateY(20px);
+    transition: transform 0.25s;
+    color: #7e7e7e;
+  }
+  &:focus + &-label,
+  &:valid + &-label {
+    transform: translateY(-10px) scale(0.8);
+    // color: #d1c5fc;
+    padding-inline: 5px;
+    background-color: $background-color;
+  }
+  &:is(:focus, :valid) {
+    outline: none;
+  }
+}
+.input-email {
+  padding: 14px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  width: 324px;
+  height: 54px;
+  background-color: transparent;
+  font: inherit;
+  &-label {
+    position: absolute;
+    top: 0;
+    left: 15;
+    transform: translateY(20px);
+    transition: transform 0.25s;
+    color: #7e7e7e;
+  }
+  &:focus + &-label,
+  &:valid + &-label {
+    transform: translateY(-10px) scale(0.8);
+    // color: #d1c5fc;
+    padding-inline: 5px;
+    background-color: $background-color;
+  }
+  &:is(:focus, :valid) {
+    outline: none;
+  }
+}
+.input-phone {
+  padding: 14px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+  width: 324px;
+  height: 54px;
+  background-color: transparent;
+  font: inherit;
+  &-label {
+    position: absolute;
+    top: 0;
+    left: 15;
+    transform: translateY(20px);
+    transition: transform 0.25s;
+    color: #7e7e7e;
+  }
+  &:focus + &-label,
+  &:valid + &-label {
+    transform: translateY(-10px) scale(0.8);
+    // color: #d1c5fc;
+    padding-inline: 5px;
+    background-color: $background-color;
+  }
+  &:is(:focus, :valid) {
+    outline: none;
+  }
+}
+.cBox {
+  display: flex;
+}
